@@ -1,0 +1,60 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+nav {
+	background-color: white;
+	padding: 30px;
+}
+
+#nav-items, a{	
+	color: #000;
+	font-size: 1.2em;
+	font-weight: bold;
+	padding: 8px;
+}
+
+#nav-items, a:hover{
+	color: #F05F44;
+	text-decoration: none;
+}
+
+header.mast {
+  background-image: url("header.jpg");
+  background-color: #cccccc;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  background-size: cover;
+  height: 100vh;
+}
+
+header.mast h1 {
+  font-size: 2.5em; 
+  text-align: right;
+  color: #fff;
+}
+
+.path {
+	color: #F05F44;
+}
+
+.btn {
+  font-weight: 700;
+  font-size: 20px;
+  text-transform: uppercase;
+  border-radius: 300px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.btn-xl {
+  padding: 1rem 2rem; 
+}
+
+.btn-light:hover {
+  background-color: #F05F44;
+  border-color: #F05F44;
+  cursor: pointer;
+}
+
+
