@@ -1,3 +1,5 @@
+/*Home & Nav bar*/
+
 body {
   font-family: 'Montserrat', sans-serif;
 }
@@ -7,16 +9,41 @@ nav {
 	padding: 30px;
 }
 
-#nav-items, a{	
+ a{	
 	color: #000;
 	font-size: 1.2em;
 	font-weight: bold;
 	padding: 8px;
 }
 
-#nav-items, a:hover{
+ a:hover{
 	color: #F05F44;
 	text-decoration: none;
+}
+
+ .nav-link, a:focus{
+	color: #F05F44;
+	text-decoration: none;
+}
+
+.custom-toggler.navbar-toggler {
+    color: #F05F44;
+    margin-top: 5px;
+    text-decoration: none;
+    border: none;
+}
+
+.custom-toggler.navbar-toggler:focus, .custom-toggler .navbar-toggler:hover {
+    text-decoration: none;
+    border: none;
+}
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(217,83,79, 0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+#Services {
+	background: #f4f4f4;
+
 }
 
 header.mast {
@@ -57,4 +84,12 @@ header.mast h1 {
   cursor: pointer;
 }
 
+/*my-journey*/
+table, th, td {
+  border: 1px solid black;
+  padding: 5px;
+}
 
+th {
+	background-color: #ccc;
+}

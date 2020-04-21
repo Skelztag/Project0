@@ -4,21 +4,50 @@
         <title>My Webpage</title>
          <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-		 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-		 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+         <link href="style.css" rel="stylesheet">
+
+         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+		 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+		 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
     </head>
     <body>
-    	<nav class="navbar">
-    	  <div class="container">
-			  <a href="#">Home</a> |
-			  <a href="/About">About</a> |
-			  <a href="/My-Journey">My Journey</a> |
-			  <a href="/Portfolio">Portfolio</a>
+    	<nav class="navbar navbar-expand-lg fixed-top my-navbar">
+		  <a class="navbar-brand" href="#">Skelly</a>
+		  <button class="navbar-toggler navbar-toggler-right custom-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		    <span class="navbar-toggler-icon"></span>
+		  </button>
+
+		  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+		    <ul class="navbar-nav ml-auto">
+		      <li class="nav-link active">
+		        <a href="index.html">Home</a> 
+		      </li>
+		      <li class="nav-link">
+		        <a href="about.html">About</a> 
+		      </li>
+		      <li class="nav-link">
+		        <a href="my-journey.html">My Journey</a> 
+		      </li>
+		       <li class="nav-link">
+		       <a href="portfolio.html">Portfolio</a> 
+
+		      </li>
+		    </ul>
 		  </div>
 		</nav>
-		<div class="container">
-			Hello, world!
-		</div> 
+		<header class="mast d-flex">
+	      <div class="container my-auto">
+	        <div class="row">
+	          <div class="col-lg-3"></div>
+	          <div class="col-lg-3"></div>
+	          <div class="col-lg-6">
+	            <h1 class="text-uppercase ">
+	              <strong >Welcome To My <span class="path">Intro to Web Programming </span> Path</strong>
+	            </h1>
+	            <button type="button" class="btn btn-light float-right btn-xl">Explore</button>
+	          </div>
+	        </div>
+	      </div>
+      </header>
     </body>
 </html>
